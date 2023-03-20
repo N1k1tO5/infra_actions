@@ -61,4 +61,4 @@ build_and_push_to_docker_hub:
         uses: docker/build-push-action@v2 
         with:
           push: true
-          tags: n1k1to5:latest 
+          tags: n1k1to5/infra_actions:latest 
